@@ -5,7 +5,7 @@ use PhpCsFixer\Finder;
 
 $rules = [
     'binary_operator_spaces' => [
-        'operators' => ['=>' => null]
+        'operators' => ['=>' => null],
     ],
     'blank_line_after_namespace' => true,
     'blank_line_after_opening_tag' => true,
@@ -21,7 +21,7 @@ $rules = [
     'function_declaration' => true,
     'function_typehint_space' => true,
     'single_line_comment_style' => [
-        'comment_types' => ['hash']
+        'comment_types' => ['hash'],
     ],
     'heredoc_to_nowdoc' => true,
     'include' => true,
@@ -42,7 +42,7 @@ $rules = [
             'throw',
             'use',
             'use_trait',
-        ]
+        ],
     ],
     'no_blank_lines_after_class_opening' => true,
     'no_blank_lines_after_phpdoc' => true,
